@@ -1,6 +1,6 @@
 {
   "name": "fairmanager-cordova-plugin-universal-links",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "Cordova plugin to add in your application support for Universal Links (iOS 9) and Deep Links (Android). Basically, open application through the link in the browser.",
   "license": "MIT",
   "author": "Nikolay Demyankov for Nordnet Bank AB",
