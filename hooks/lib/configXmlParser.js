@@ -122,10 +122,9 @@ function constructHostEntry( xmlElement ) {
  * @return {Array} list of path entries, each on is a JSON object
  */
 function constructPaths( xmlElement ) {
-	if( xmlElement.path === null ) {
+	if( xmlElement.path === null || xmlElement.path === undefined) {
 		return [ "*" ];
 	}
-
 	let paths = [];
 	xmlElement.path.some( pathElement => {
 		const url = pathElement.$.url;
