@@ -125,7 +125,6 @@ function constructPaths( xmlElement ) {
 	if( xmlElement.path === null || xmlElement.path === undefined ) {
 		return [ "*" ];
 	}
-
 	let paths = [];
 	xmlElement.path.some( pathElement => {
 		const url = pathElement.$.url;
